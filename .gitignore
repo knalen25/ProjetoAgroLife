@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+*.db
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.log
+
+# Env
+.env
+venv/
+env/
+
+# VSCode
+.vscode/
+
+# Migrations (se quiser ignorar arquivos gerados pelo Django)
+**/migrations/*.py
+!**/migrations/__init__.py
